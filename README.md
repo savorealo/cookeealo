@@ -114,7 +114,7 @@ El sistema utiliza un patrón **Monolito Modular** con vistas a una futura migra
 
 ```mermaid
 graph TD;
-    Client[Next.js Client (SSR/SSG)]-->|REST / JSON| Gateway[Express API Gateway];
+    Client["Next.js Client (SSR/SSG)"]-->|REST / JSON| Gateway[Express API Gateway];
     Gateway-->Auth[Auth Service JWT];
     Gateway-->Feed[Feed & Recetas Service];
     Gateway-->Social[Interacciones & Seguidores];
