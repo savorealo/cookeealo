@@ -1,123 +1,84 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=GastroGram&fontSize=85&fontAlignY=35&animation=twinkling&desc=Donde%20el%20mundo%20se%20sienta%20a%20comer.&descAlignY=55&descSize=22" width="100%"/>
-
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=500&size=18&pause=1000&color=F7931E&center=true&vCenter=true&width=600&lines=El+proyecto+final+que+revoluciona+el+food-sharing;Comparte+recetas.+Conecta+con+foodies.;Arquitectura+moderna.+Diseño+pixel-perfect." alt="Typing SVG" />
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=f7931e&height=280&section=header&text=Savorealo&fontSize=90&fontAlignY=38&animation=fadeIn&desc=Inteligencia%20Artificial%20al%20servicio%20de%20la%20gastronomía&descSize=20&descAlignY=60" width="100%" />
 
   <br />
-  
-  <a href="https://github.com/tu-usuario/gastrogram/stargazers">
-    <img src="https://img.shields.io/github/stars/tu-usuario/gastrogram?style=for-the-badge&color=FFD700&labelColor=222222&logo=github" alt="Stars" />
+
+  <a href="https://savorealo.com">
+    <img src="https://img.shields.io/badge/PRODUCTION-SAVOREALO.COM-F7931E?style=for-the-badge&labelColor=1a1a1a" alt="Website" />
   </a>
-  <a href="https://github.com/tu-usuario/gastrogram/network/members">
-    <img src="https://img.shields.io/github/forks/tu-usuario/gastrogram?style=for-the-badge&color=FF8C00&labelColor=222222&logo=git" alt="Forks" />
-  </a>
-  <a href="https://github.com/tu-usuario/gastrogram/issues">
-    <img src="https://img.shields.io/github/issues/tu-usuario/gastrogram?style=for-the-badge&color=FF4500&labelColor=222222&logo=issuu" alt="Issues" />
-  </a>
-  <a href="https://gastrogram.app">
-    <img src="https://img.shields.io/badge/Live_Demo-Online-10B981?style=for-the-badge&labelColor=222222&logo=vercel" alt="Demo Online" />
-  </a>
+  <img src="https://img.shields.io/badge/ANGULAR-v21-DD0031?style=for-the-badge&labelColor=1a1a1a&logo=angular" alt="Angular" />
+  <img src="https://img.shields.io/badge/MOBILE-FLUTTER_%7C_KOTLIN-02569B?style=for-the-badge&labelColor=1a1a1a&logo=flutter" alt="Mobile Stack" />
+  <img src="https://img.shields.io/badge/CI%2FCD-GITHUB_ACTIONS-2088FF?style=for-the-badge&labelColor=1a1a1a&logo=github-actions" alt="CI/CD" />
 </div>
 
 <br />
 
-> *"Comemos primero con los ojos. Y en el mundo digital, cocinamos con código."*
+---
 
-### 📖 La Visión detrás de GastroGram
+### Visión Ejecutiva
 
-Las aplicaciones de recetas tradicionales son aburridas y estáticas. Las redes sociales genéricas están llenas de ruido. **GastroGram nace para llenar ese vacío**. Desarrollado como un ambicioso proyecto final, GastroGram es una **red social de nicho** que combina la estética visual de Instagram con la utilidad práctica de un recetario profesional. 
-
-No es solo código; es una plataforma pensada para creadores, diseñada para escalar y construida con las mejores prácticas de la industria actual.
+Savorealo redefine la interacción digital en el sector culinario. No es simplemente una red social, sino un ecosistema integral que combina **IA generativa**, análisis de datos avanzado y una arquitectura multiplataforma. El proyecto ha evolucionado de una estructura base a un sistema de alto rendimiento, destacando la migración crítica de Angular 19 a Angular 21 para aprovechar las últimas optimizaciones del framework.
 
 ---
 
-<details open>
-  <summary><b>📑 ÍNDICE DE CONTENIDOS (Clic para expandir)</b></summary>
-  <br />
-  
-  1. [✨ Experiencia de Usuario (Features)](#-experiencia-de-usuario-features)
-  2. [🛠️ Stack Tecnológico](#️-stack-tecnológico)
-  3. [🏗️ Arquitectura de Software](#-arquitectura-de-software)
-  4. [📂 Estructura del Ecosistema](#-estructura-del-ecosistema)
-  5. [🚀 Instalación Rápida](#-instalación-rápida)
-  6. [🔮 Visión a Futuro (Roadmap)](#-visión-a-futuro-roadmap)
-  7. [👨‍💻 Los Arquitectos](#-los-arquitectos)
+### Índice de Arquitectura
 
-</details>
+1. [Innovación con IA](#innovación-con-ia)
+2. [Ecosistema Tecnológico](#ecosistema-tecnológico)
+3. [Estructura de Datos y Análisis](#estructura-de-datos-y-análisis)
+4. [Infraestructura y Despliegue](#infraestructura-y-despliegue)
+5. [Arquitectura de Microservicios](#arquitectura-de-microservicios)
+6. [Repositorios del Proyecto](#repositorios-del-proyecto)
 
 ---
 
-## ✨ Experiencia de Usuario (Features)
+### Innovación con IA
 
-Para lograr un producto "Investor-Ready", nos enfocamos en una UI/UX impecable y funcionalidades que retienen al usuario.
+El núcleo diferencial de Savorealo es su **Generador de Recetas con IA**, integrado mediante modelos de lenguaje avanzados (Claude).
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>📱 Scroll Infinito & Feed Dinámico</h3>
-      <p>Un feed altamente adictivo impulsado por un algoritmo que prioriza el contenido visual. Soporta imágenes de alta resolución optimizadas al vuelo.</p>
-      <ul>
-        <li>Doble tap para "Me Gusta" (animación custom).</li>
-        <li>Carga perezosa (Lazy Loading) de imágenes.</li>
-        <li>Hilos de comentarios anidados.</li>
-      </ul>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://cdn.dribbble.com/users/1615584/screenshots/15710288/media/6c8fbdeccb839849202eb89728cb1115.gif" width="250" style="border-radius: 15px;" alt="Feed Demo" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://cdn.dribbble.com/users/2069402/screenshots/14470659/media/31a2ee7b2c58da4f4b259163e8a4a35e.gif" width="250" style="border-radius: 15px;" alt="Editor Demo" />
-    </td>
-    <td width="50%" valign="top">
-      <h3>👨‍🍳 Creador de Recetas Inteligente</h3>
-      <p>Publicar una receta debe ser tan satisfactorio como cocinarla. Nuestro editor paso a paso hace el trabajo pesado.</p>
-      <ul>
-        <li>Drag & Drop para imágenes.</li>
-        <li>Auto-cálculo de tiempo total.</li>
-        <li>Etiquetado de dietas (Keto, Vegano, Celiaco).</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+* **Generación Contextual:** Creación de recetas basadas en ingredientes disponibles, restricciones dietéticas y preferencias culturales.
+* **Optimización de Flujos:** Uso de **n8n** para la orquestación de flujos de trabajo inteligentes entre la IA y la base de datos.
+* **Asistente Inteligente:** Implementación de procesamiento de lenguaje natural para guiar al usuario en tiempo real.
 
 ---
 
-## 🛠️ Stack Tecnológico
+### Ecosistema Tecnológico
 
-Elegimos un stack moderno, fuertemente tipado y orientado al rendimiento. *(Iconos impulsados por skillicons.dev)*
+#### Frontend & Mobile
+* **Core:** Angular 21 (Migración exitosa desde v19 para optimización de Signals y SSR).
+* **Design System:** Tailwind CSS con componentes PrimeNG personalizados en la gama naranja/amarillo.
+* **Mobile:** Desarrollo híbrido con Flutter (Dart) y módulos nativos en Kotlin.
+* **Diseño UI/UX:** Prototipado de alta fidelidad en Figma.
 
-<div align="center">
-  <br />
-  <p><b>Frontend Ecosystem</b></p>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,redux,framer&perline=10" alt="Frontend Stack" />
-  
-  <br /><br />
-  
-  <p><b>Backend & Data</b></p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,prisma,redis,jwt&perline=10" alt="Backend Stack" />
-
-  <br /><br />
-  
-  <p><b>Infraestructura & Tools</b></p>
-  <img src="https://skillicons.dev/icons?i=docker,githubactions,vercel,aws,figma,postman&perline=10" alt="DevOps Stack" />
-</div>
+#### Backend & Persistencia
+* **API:** GraphQL para consultas eficientes y tipado estricto.
+* **ORM:** Prisma para la gestión de modelos y migraciones.
+* **BaaS:** Supabase (Auth, Realtime Database, Storage).
+* **Lógica:** TypeScript como lenguaje unificado en todo el stack.
 
 ---
 
-## 🏗️ Arquitectura de Software
+### Estructura de Datos y Análisis
 
-El sistema utiliza un patrón **Monolito Modular** con vistas a una futura migración a microservicios. Separación estricta de responsabilidades (SoC).
+Savorealo utiliza el dato como motor de crecimiento.
+
+* **Procesamiento:** Uso de **Pandas** para la limpieza y estructuración de grandes volúmenes de datos culinarios.
+* **Business Intelligence:** Dashboards en **Power BI** para el seguimiento de KPIs, tendencias de consumo y engagement de usuarios.
+
+---
+
+### Arquitectura de Microservicios
 
 ```mermaid
 graph TD;
-    Client["Next.js Client (SSR/SSG)"]-->|REST / JSON| Gateway[Express API Gateway];
-    Gateway-->Auth[Auth Service JWT];
-    Gateway-->Feed[Feed & Recetas Service];
-    Gateway-->Social[Interacciones & Seguidores];
-    Feed-->Prisma[(PostgreSQL DB)];
-    Social-->Prisma;
-    Feed-->Cloudinary[Cloudinary CDN / Imágenes];
+    User["Usuario (Web/Mobile)"] -->|GraphQL| Cloudflare["Cloudflare (WAF/CDN)"];
+    Cloudflare --> Gateway["API Gateway (TypeScript)"];
+    Gateway --> AI["Claude AI Engine / n8n"];
+    Gateway --> DB["Supabase (PostgreSQL / Prisma)"];
+    DB --> DataAnalysis["Pipeline de Datos (Pandas)"];
+    DataAnalysis --> BI["Power BI Reports"];
+    
+    subgraph "CI/CD Pipeline"
+    Github["GitHub Repository"] --> Actions["GitHub Actions"];
+    Actions --> Deploy["Vercel / Cloudflare Pages"];
+    end
