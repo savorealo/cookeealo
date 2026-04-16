@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="900" height="220">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0a0300"/>
+      <stop offset="40%"  stop-color="#180900"/>
+      <stop offset="100%" stop-color="#0a0300"/>
+    </linearGradient>
+    <linearGradient id="orange-h" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#0a0300"  stop-opacity="0"/>
+      <stop offset="20%"  stop-color="#FF6B00"  stop-opacity="1"/>
+      <stop offset="50%"  stop-color="#FF9A00"  stop-opacity="1"/>
+      <stop offset="80%"  stop-color="#FF6B00"  stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0a0300"  stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="orange-text" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FF6B00"/>
+      <stop offset="50%"  stop-color="#FFAA00"/>
+      <stop offset="100%" stop-color="#FF6B00"/>
+    </linearGradient>
+    <radialGradient id="glow-c" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FF7A00" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spark" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#FFD080" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="f-blur2"><feGaussianBlur stdDeviation="2"/></filter>
+    <filter id="f-blur5"><feGaussianBlur stdDeviation="5"/></filter>
+    <filter id="f-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip-main">
+      <rect width="900" height="220" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <!-- ── Fondo ── -->
+  <rect width="900" height="220" fill="url(#bg-grad)" rx="14"/>
+
+  <!-- ── Marco naranja fino ── -->
+  <rect width="900" height="220" fill="none" stroke="#FF6B00" stroke-width="1.2" rx="14" opacity="0.4"/>
+
+  <!-- ── Esquinas decorativas ── -->
+  <path d="M0,0 L36,0 L0,36"   fill="none" stroke="#FF6B00" stroke-width="1.8" rx="2" opacity="0.7"/>
+  <path d="M900,0 L864,0 L900,36" fill="none" stroke="#FF6B00" stroke-width="1.8" opacity="0.7"/>
+  <path d="M0,220 L36,220 L0,184" fill="none" stroke="#FF6B00" stroke-width="1.8" opacity="0.7"/>
+  <path d="M900,220 L864,220 L900,184" fill="none" stroke="#FF6B00" stroke-width="1.8" opacity="0.7"/>
+
+  <!-- ── ONDAS GASTRONÓMICAS de fondo ── -->
+  <g clip-path="url(#clip-main)">
+
+    <!-- Onda 1 — lenta, grande, muy sutil -->
+    <path fill="#FF6B00" opacity="0.035"
+      d="M0,160 Q100,130 200,155 T400,140 T600,158 T800,138 T900,150 L900,220 L0,220 Z">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite"
+        values="
+          M0,160 Q100,130 200,155 T400,140 T600,158 T800,138 T900,150 L900,220 L0,220 Z;
+          M0,148 Q100,170 200,142 T400,162 T600,140 T800,162 T900,140 L900,220 L0,220 Z;
+          M0,160 Q100,130 200,155 T400,140 T600,158 T800,138 T900,150 L900,220 L0,220 Z"/>
+    </path>
+
+    <!-- Onda 2 — media velocidad -->
+    <path fill="#FF8C00" opacity="0.05"
+      d="M0,175 Q150,150 300,170 T600,155 T900,172 L900,220 L0,220 Z">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="
+          M0,175 Q150,150 300,170 T600,155 T900,172 L900,220 L0,220 Z;
+          M0,162 Q150,182 300,155 T600,178 T900,155 L900,220 L0,220 Z;
+          M0,175 Q150,150 300,170 T600,155 T900,172 L900,220 L0,220 Z"/>
+    </path>
+
+    <!-- Onda 3 — rápida, fina -->
+    <path fill="none" stroke="#FF6B00" stroke-width="0.8" opacity="0.15"
+      d="M0,188 Q112,172 225,185 T450,175 T675,188 T900,172">
+      <animate attributeName="d" dur="6s" repeatCount="indefinite"
+        values="
+          M0,188 Q112,172 225,185 T450,175 T675,188 T900,172;
+          M0,178 Q112,192 225,172 T450,192 T675,172 T900,192;
+          M0,188 Q112,172 225,185 T450,175 T675,188 T900,172"/>
+    </path>
+
+    <!-- ── VAPOR / PARTÍCULAS tipo chispa gastronómica ── -->
+
+    <!-- Chispa 1 -->
+    <circle cx="80" cy="200" r="1.8" fill="#FFB347" opacity="0">
+      <animate attributeName="cy"      values="200;60;200"    dur="6.5s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="cx"      values="80;88;80"      dur="6.5s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0;0.6;0" dur="6.5s" begin="0s"   repeatCount="indefinite"/>
+      <animate attributeName="r"       values="1.8;0.8;1.8"   dur="6.5s" begin="0s"   repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa 2 -->
+    <circle cx="160" cy="210" r="1.2" fill="#FF9A00" opacity="0">
+      <animate attributeName="cy"      values="210;55;210"    dur="8s"   begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="cx"      values="160;152;160"   dur="8s"   begin="1.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0;0.4;0" dur="8s"   begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa 3 — grande, lenta -->
+    <circle cx="270" cy="205" r="2.5" fill="#FF6B00" opacity="0" filter="url(#f-blur2)">
+      <animate attributeName="cy"      values="205;40;205"    dur="11s"  begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="cx"      values="270;280;270"   dur="11s"  begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.5;0;0.3;0" dur="11s"  begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa 4 -->
+    <circle cx="420" cy="215" r="1.5" fill="#FFCC44" opacity="0">
+      <animate attributeName="cy"      values="215;50;215"    dur="9s"   begin="2s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.9;0;0.5;0" dur="9s"   begin="2s"   repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa 5 — derecha -->
+    <circle cx="580" cy="208" r="2" fill="#FF8C00" opacity="0">
+      <animate attributeName="cy"      values="208;45;208"    dur="7.5s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="cx"      values="580;572;580"   dur="7.5s" begin="0.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.7;0;0.4;0" dur="7.5s" begin="0.8s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa 6 -->
+    <circle cx="700" cy="200" r="1.4" fill="#FFB347" opacity="0">
+      <animate attributeName="cy"      values="200;65;200"    dur="10s"  begin="3s"   repeatCount="indefinite"/>
+      <animate attributeName="cx"      values="700;710;700"   dur="10s"  begin="3s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.8;0;0.4;0" dur="10s"  begin="3s"   repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa 7 -->
+    <circle cx="800" cy="212" r="1.8" fill="#FF9A00" opacity="0">
+      <animate attributeName="cy"      values="212;55;212"    dur="8.5s" begin="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="cx"      values="800;792;800"   dur="8.5s" begin="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.6;0;0.3;0" dur="8.5s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa 8 — muy pequeña, rápida -->
+    <circle cx="860" cy="200" r="1" fill="#FFDD88" opacity="0">
+      <animate attributeName="cy"      values="200;80;200"    dur="5.5s" begin="4s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;0;0.6;0"   dur="5.5s" begin="4s"   repeatCount="indefinite"/>
+    </circle>
+    <!-- Chispa central extra -->
+    <circle cx="450" cy="215" r="2.2" fill="#FF7A00" opacity="0" filter="url(#f-blur2)">
+      <animate attributeName="cy"      values="215;30;215"    dur="13s"  begin="1s"   repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0.4;0;0.2;0" dur="13s"  begin="1s"   repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ── VAPOR tipo humo ascendente ── ondas de Bézier delgadas -->
+    <path d="M130,215 Q126,195 132,180 Q137,165 130,145" fill="none" stroke="#FF9A00" stroke-width="0.7" opacity="0">
+      <animate attributeName="opacity" values="0;0.25;0" dur="5s" begin="0.5s" repeatCount="indefinite"/>
+      <animate attributeName="d" dur="5s" begin="0.5s" repeatCount="indefinite"
+        values="M130,215 Q126,195 132,180 Q137,165 130,145;
+                M130,215 Q134,195 128,175 Q123,155 130,135;
+                M130,215 Q126,195 132,180 Q137,165 130,145"/>
+    </path>
+    <path d="M350,215 Q346,190 353,170 Q360,150 350,125" fill="none" stroke="#FF8C00" stroke-width="0.6" opacity="0">
+      <animate attributeName="opacity" values="0;0.2;0" dur="6s" begin="2s" repeatCount="indefinite"/>
+      <animate attributeName="d" dur="6s" begin="2s" repeatCount="indefinite"
+        values="M350,215 Q346,190 353,170 Q360,150 350,125;
+                M350,215 Q355,190 347,168 Q340,148 350,118;
+                M350,215 Q346,190 353,170 Q360,150 350,125"/>
+    </path>
+    <path d="M660,215 Q655,188 663,165 Q670,145 660,118" fill="none" stroke="#FFB347" stroke-width="0.6" opacity="0">
+      <animate attributeName="opacity" values="0;0.22;0" dur="7s" begin="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="d" dur="7s" begin="1.5s" repeatCount="indefinite"
+        values="M660,215 Q655,188 663,165 Q670,145 660,118;
+                M660,215 Q666,188 657,163 Q650,142 660,112;
+                M660,215 Q655,188 663,165 Q670,145 660,118"/>
+    </path>
+
+  </g><!-- fin clip -->
+
+  <!-- ── HALO central pulsante detrás del texto ── -->
+  <ellipse cx="450" cy="108" rx="240" ry="65" fill="url(#glow-c)" filter="url(#f-blur5)">
+    <animate attributeName="rx" values="240;280;240" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- ── Línea brillante superior ── -->
+  <line x1="50" y1="1" x2="850" y2="1" stroke="url(#orange-h)" stroke-width="1.5"/>
+  <!-- ── Línea brillante inferior ── -->
+  <line x1="50" y1="219" x2="850" y2="219" stroke="url(#orange-h)" stroke-width="1.5"/>
+
+  <!-- ── TEXTO PRINCIPAL — sombra difusa detrás ── -->
+  <text x="450" y="96"
+    font-family="'Segoe UI',system-ui,sans-serif" font-size="62" font-weight="900"
+    text-anchor="middle" fill="url(#orange-text)" opacity="0.18" filter="url(#f-blur5)"
+    letter-spacing="6">SAVOREALO</text>
+
+  <!-- ── TEXTO PRINCIPAL — nítido ── -->
+  <text x="450" y="96"
+    font-family="'Segoe UI',system-ui,sans-serif" font-size="62" font-weight="900"
+    text-anchor="middle" fill="url(#orange-text)" letter-spacing="6" filter="url(#f-glow)">
+    SAVOREALO
+    <animate attributeName="opacity" values="0;1" dur="1.4s" fill="freeze"/>
+  </text>
+
+  <!-- ── SUBTÍTULO ── -->
+  <text x="450" y="126"
+    font-family="'Segoe UI',system-ui,sans-serif" font-size="13" font-weight="400"
+    text-anchor="middle" fill="#ffd4a8" letter-spacing="5" opacity="0">
+    LA RED SOCIAL GASTRONÓMICA CON IA
+    <animate attributeName="opacity" values="0;0.82" dur="1.8s" begin="0.7s" fill="freeze"/>
+  </text>
+
+  <!-- ── Línea decorativa que se expande ── -->
+  <line x1="450" y1="140" x2="450" y2="140" stroke="#FF6B00" stroke-width="0.8" opacity="0.55">
+    <animate attributeName="x1" values="450;290" dur="1s" begin="1.3s" fill="freeze"/>
+    <animate attributeName="x2" values="450;610" dur="1s" begin="1.3s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;0.55" dur="0.5s" begin="1.3s" fill="freeze"/>
+  </line>
+
+  <!-- ── Diamantes decorativos en los extremos de la línea ── -->
+  <polygon points="286,140 290,136 294,140 290,144" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0.7" dur="0.3s" begin="2.2s" fill="freeze"/>
+  </polygon>
+  <polygon points="606,140 610,136 614,140 610,144" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0.7" dur="0.3s" begin="2.2s" fill="freeze"/>
+  </polygon>
+
+  <!-- ── Iconos gastronómicos que aparecen con delay ── -->
+  <text x="210" y="106" font-size="24" text-anchor="middle" opacity="0">🍴
+    <animate attributeName="opacity" values="0;0.55" dur="0.6s" begin="1.8s" fill="freeze"/>
+  </text>
+  <text x="690" y="106" font-size="24" text-anchor="middle" opacity="0">🍷
+    <animate attributeName="opacity" values="0;0.55" dur="0.6s" begin="2s" fill="freeze"/>
+  </text>
+
+  <!-- ── Puntos parpadeantes decorativos ── -->
+  <circle cx="340" cy="162" r="1.5" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0.55;0" dur="2.2s" begin="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="166" r="1"   fill="#ffd4a8" opacity="0">
+    <animate attributeName="opacity" values="0;0.4;0"  dur="2.8s" begin="3s"   repeatCount="indefinite"/>
+  </circle>
+  <circle cx="560" cy="162" r="1.5" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0.55;0" dur="2.2s" begin="2.8s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>
