@@ -5,7 +5,7 @@
 <br/>
 
 <a href="https://savorealo.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&repeat=true&width=680&height=50&lines=AI-powered+gastronomic+social+network+%F0%9F%8D%B4;Generate+recipes+with+Claude+AI+%F0%9F%A4%96;Share%2C+discover%2C+savour+%F0%9F%8D%B7;Angular+21+%C2%B7+Flutter+%C2%B7+Cloudflare+Workers+%E2%9A%A1;PostgreSQL+17+%C2%B7+29+tables+%C2%B7+RLS+%C2%B7+FTS+%F0%9F%97%84%EF%B8%8F;Final+Degree+Project+%E2%86%92+Startup+%F0%9F%9A%80" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&repeat=true&width=680&height=50&lines=AI-powered+gastronomic+social+network+%F0%9F%8D%B4;Generate+recipes+with+Claude+AI+%F0%9F%A4%96;Share%2C+discover%2C+savour+%F0%9F%8D%B7;Angular+21+%C2%B7+Flutter+%C2%B7+Cloudflare+Workers+%E2%9A%A1;PostgreSQL+17+%C2%B7+29+tables+%C2%B7+RLS+%C2%B7+FTS+%F0%9F%97%84%EF%B8%8F;Final+Degree++%E2%86%92+Startup+%F0%9F%9A%80" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
@@ -319,7 +319,7 @@ ai_generations
 
 <div align="center">
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=TU_USUARIO&bg_color=0a0300&color=FF9A00&line=FF6B00&point=FFD080&area=true&area_color=FF6B00&hide_border=false&border_color=FF6B00&title_color=FF9A00&custom_title=Savorealo%20team%20activity"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=savorealov&bg_color=0a0300&color=FF9A00&line=FF6B00&point=FFD080&area=true&area_color=FF6B00&hide_border=false&border_color=FF6B00&title_color=FF9A00&custom_title=Savorealo%20team%20activity"
   width="100%"
   alt="Activity graph"
 />
@@ -446,7 +446,7 @@ flutter run
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=4000&pause=2000&color=FF6B00&center=true&vCenter=true&repeat=true&width=500&height=28&lines=Final+Degree+Project+%E2%86%92+Startup+%F0%9F%9A%80;Sprint+1+completed+%C2%B7+April+2026+%E2%9C%85;Cooking+the+future+of+gastronomy+%F0%9F%8D%B3" alt="footer typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=4000&pause=2000&color=FF6B00&center=true&vCenter=true&repeat=true&width=500&height=28&lines=Final+Degree++%E2%86%92+Startup+%F0%9F%9A%80;Sprint+1+completed+%C2%B7+April+2026+%E2%9C%85;Cooking+the+future+of+gastronomy+%F0%9F%8D%B3" alt="footer typing"/>
 
 <br/><br/>
 
