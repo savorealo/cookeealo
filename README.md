@@ -319,7 +319,7 @@ ai_generations
 
 <div align="center">
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=savorealov&bg_color=0a0300&color=FF9A00&line=FF6B00&point=FFD080&area=true&area_color=FF6B00&hide_border=false&border_color=FF6B00&title_color=FF9A00&custom_title=Savorealo%20team%20activity"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=savorealo&bg_color=0a0300&color=FF9A00&line=FF6B00&point=FFD080&area=true&area_color=FF6B00&hide_border=false&border_color=FF6B00&title_color=FF9A00&custom_title=Savorealo%20team%20activity"
   width="100%"
   alt="Activity graph"
 />
