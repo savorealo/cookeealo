@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="900" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#0a0300"/>
+      <stop offset="100%" stop-color="#180a00"/>
+    </linearGradient>
+    <linearGradient id="pipe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#FF6B00" stop-opacity="0.1"/>
+      <stop offset="50%"  stop-color="#FF9A00" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M1,1 L8,5 L1,9" fill="none" stroke="#FF9A00" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-rev" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M9,1 L2,5 L9,9" fill="none" stroke="#27ae60" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="900" height="200" fill="url(#bg)" rx="12"/>
+  <rect width="900" height="200" fill="none" stroke="#FF6B00" stroke-width="1" rx="12" opacity="0.3"/>
+
+  <!-- Título -->
+  <text x="450" y="26" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600"
+    text-anchor="middle" fill="#FF9A00" letter-spacing="3" opacity="0.9">FLUJO DE UNA PETICIÓN — ~80ms</text>
+  <line x1="200" y1="34" x2="700" y2="34" stroke="#FF6B00" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- ── Nodo USUARIO ── -->
+  <rect x="20" y="70" width="110" height="60" rx="8" fill="#1a0800" stroke="#FF6B00" stroke-width="0.8"/>
+  <text x="75" y="95" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#ffd4a8">👤 Usuario</text>
+  <text x="75" y="111" font-family="'Segoe UI',sans-serif" font-size="9" text-anchor="middle" fill="#ffd4a8" opacity="0.6">Madrid / Tokyo</text>
+  <text x="75" y="124" font-family="'Segoe UI',sans-serif" font-size="9" text-anchor="middle" fill="#ffd4a8" opacity="0.6">cualquier ciudad</text>
+
+  <!-- Flecha usuario → worker -->
+  <line x1="130" y1="100" x2="195" y2="100" stroke="#FF9A00" stroke-width="1.2" marker-end="url(#arr)" stroke-dasharray="4,3">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+  <text x="163" y="94" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#FF9A00" opacity="0.6">HTTPS</text>
+
+  <!-- ── Nodo WORKER (grande, protagonista) ── -->
+  <rect x="200" y="48" width="420" height="104" rx="10" fill="#1a0800" stroke="#FF6B00" stroke-width="1.2"/>
+  <!-- Título worker -->
+  <text x="410" y="68" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="700" text-anchor="middle" fill="#FF9A00">⚡ Cloudflare Worker — datacenter más cercano</text>
+  <line x1="215" y1="75" x2="605" y2="75" stroke="#FF6B00" stroke-width="0.4" opacity="0.3"/>
+
+  <!-- 4 pasos internos del worker -->
+  <!-- Paso 1 -->
+  <rect x="212" y="82" width="92" height="56" rx="6" fill="#0a0300" stroke="#FF6B00" stroke-width="0.5" opacity="0.6" id="step1-box"/>
+  <rect x="212" y="82" width="92" height="56" rx="6" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0.12;0;0;0;0;0;0" dur="4s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <text x="258" y="100" font-family="'Segoe UI',sans-serif" font-size="9" font-weight="600" text-anchor="middle" fill="#FF9A00">1. JWT</text>
+  <text x="258" y="113" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#ffd4a8" opacity="0.7">Verifica token</text>
+  <text x="258" y="125" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#27ae60" opacity="0.8">~0ms · sin DB</text>
+  <!-- Paso 2 -->
+  <rect x="314" y="82" width="92" height="56" rx="6" fill="#0a0300" stroke="#FF6B00" stroke-width="0.5" opacity="0.6"/>
+  <rect x="314" y="82" width="92" height="56" rx="6" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0;0.12;0;0;0;0;0" dur="4s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <text x="360" y="100" font-family="'Segoe UI',sans-serif" font-size="9" font-weight="600" text-anchor="middle" fill="#FF9A00">2. KV Cache</text>
+  <text x="360" y="113" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#ffd4a8" opacity="0.7">¿Resultado existe?</text>
+  <text x="360" y="125" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#27ae60" opacity="0.8">hit → &lt;5ms</text>
+  <!-- Paso 3 -->
+  <rect x="416" y="82" width="92" height="56" rx="6" fill="#0a0300" stroke="#FF6B00" stroke-width="0.5" opacity="0.6"/>
+  <rect x="416" y="82" width="92" height="56" rx="6" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0.12;0;0;0;0" dur="4s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <text x="462" y="100" font-family="'Segoe UI',sans-serif" font-size="9" font-weight="600" text-anchor="middle" fill="#FF9A00">3. Prisma + PG</text>
+  <text x="462" y="113" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#ffd4a8" opacity="0.7">Hyperdrive pool</text>
+  <text x="462" y="125" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#ffd4a8" opacity="0.6">miss → query DB</text>
+  <!-- Paso 4 -->
+  <rect x="518" y="82" width="92" height="56" rx="6" fill="#0a0300" stroke="#FF6B00" stroke-width="0.5" opacity="0.6"/>
+  <rect x="518" y="82" width="92" height="56" rx="6" fill="#FF6B00" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0.12;0;0;0" dur="4s" repeatCount="indefinite" begin="0s"/>
+  </rect>
+  <text x="564" y="100" font-family="'Segoe UI',sans-serif" font-size="9" font-weight="600" text-anchor="middle" fill="#FF9A00">4. KV Write</text>
+  <text x="564" y="113" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#ffd4a8" opacity="0.7">Cachea 30s</text>
+  <text x="564" y="125" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#ffd4a8" opacity="0.6">→ responde</text>
+
+  <!-- Bola animada que recorre los 4 pasos internos -->
+  <circle r="5" fill="#FF9A00" opacity="0" filter="url(#glow)">
+    <animateMotion dur="4s" repeatCount="indefinite">
+      <mpath href="#internal-path"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="0;1;1;1;1;1;0" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <path id="internal-path" d="M258,110 L360,110 L462,110 L564,110" fill="none"/>
+
+  <!-- Flecha worker → Supabase (abajo) -->
+  <line x1="462" y1="152" x2="462" y2="168" stroke="#FF6B00" stroke-width="1" marker-end="url(#arr)" opacity="0.5" stroke-dasharray="3,2">
+    <animate attributeName="stroke-dashoffset" values="0;-10" dur="1s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Flecha worker → respuesta -->
+  <line x1="620" y1="100" x2="680" y2="100" stroke="#27ae60" stroke-width="1.2" marker-end="url(#arr-rev)" stroke-dasharray="4,3">
+    <animate attributeName="stroke-dashoffset" values="0;-14" dur="0.8s" repeatCount="indefinite"/>
+  </line>
+  <text x="650" y="94" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#27ae60" opacity="0.7">JSON</text>
+
+  <!-- ── Nodo SUPABASE ── -->
+  <rect x="360" y="168" width="204" height="24" rx="6" fill="#0a1a0a" stroke="#27ae60" stroke-width="0.7" opacity="0.8"/>
+  <text x="462" y="183" font-family="'Segoe UI',sans-serif" font-size="9" text-anchor="middle" fill="#7adb8a">🐘 Supabase PostgreSQL 17 · Hyperdrive pool</text>
+
+  <!-- ── Nodo RESPUESTA ── -->
+  <rect x="685" y="70" width="110" height="60" rx="8" fill="#0a1a0a" stroke="#27ae60" stroke-width="0.8"/>
+  <text x="740" y="95" font-family="'Segoe UI',sans-serif" font-size="11" font-weight="600" text-anchor="middle" fill="#7adb8a">✅ Respuesta</text>
+  <text x="740" y="110" font-family="'Segoe UI',sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#FF9A00">~80ms</text>
+  <text x="740" y="124" font-family="'Segoe UI',sans-serif" font-size="8" text-anchor="middle" fill="#7adb8a" opacity="0.7">desde cualquier ciudad</text>
+
+  <!-- Pulso verde en respuesta -->
+  <rect x="685" y="70" width="110" height="60" rx="8" fill="none" stroke="#27ae60" stroke-width="1.5" opacity="0">
+    <animate attributeName="opacity" values="0;0.6;0" dur="2s" repeatCount="indefinite" begin="3.2s"/>
+  </rect>
+
+</svg>
