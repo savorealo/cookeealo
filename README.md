@@ -1,27 +1,26 @@
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                    HERO BANNER                     -->
-<!-- ═══════════════════════════════════════════════════ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d0500,50:c45000,100:FF6B00&height=300&section=header&text=Savorealo&fontSize=100&fontColor=fff&fontAlignY=45&animation=fadeIn&desc=La%20red%20social%20que%20te%20hace%20saborear%20la%20vida&descSize=18&descAlignY=68&descColor=ffd4a8&stroke=FF6B00&strokeWidth=2" width="100%" />
+<img src="./assets/hero.svg" width="100%" alt="Savorealo"/>
+
+<br/>
 
 <!-- TYPING SVG -->
 <a href="https://savorealo.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&repeat=true&width=620&height=50&lines=Red+social+gastron%C3%B3mica+con+IA+%F0%9F%8D%B4;Genera+recetas+con+Claude+AI+%F0%9F%A4%96;Comparte%2C+descubre%2C+saborea+%F0%9F%8D%B7;Angular+21+%C2%B7+Flutter+%C2%B7+Cloudflare+Workers;Proyecto+Final+de+Grado+%E2%86%92+Startup+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&repeat=true&width=680&height=50&lines=Red+social+gastron%C3%B3mica+con+IA+%F0%9F%8D%B4;Genera+recetas+con+Claude+AI+%F0%9F%A4%96;Comparte%2C+descubre%2C+saborea+%F0%9F%8D%B7;Angular+21+%C2%B7+Flutter+%C2%B7+Cloudflare+Workers+%E2%9A%A1;PostgreSQL+17+%C2%B7+29+tablas+%C2%B7+RLS+%C2%B7+FTS+%F0%9F%97%84%EF%B8%8F;Proyecto+Final+de+Grado+%E2%86%92+Startup+%F0%9F%9A%80" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
 <!-- BADGES -->
 <a href="https://savorealo.com">
-  <img src="https://img.shields.io/badge/%F0%9F%8C%90-savorealo.com-FF6B00?style=for-the-badge&labelColor=0d0500" />
+  <img src="https://img.shields.io/badge/%F0%9F%8C%90-savorealo.com-FF6B00?style=for-the-badge&labelColor=0a0300"/>
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/STATUS-En_desarrollo-27ae60?style=for-the-badge&labelColor=0d0500" />
+<img src="https://img.shields.io/badge/STATUS-En_desarrollo-27ae60?style=for-the-badge&labelColor=0a0300"/>
 &nbsp;
-<img src="https://img.shields.io/badge/SPRINT-1_completado-3498db?style=for-the-badge&labelColor=0d0500" />
+<img src="https://img.shields.io/badge/SPRINT-1_completado-FF6B00?style=for-the-badge&labelColor=0a0300"/>
 &nbsp;
-<img src="https://img.shields.io/badge/PLATAFORMA-Web_%7C_iOS_%7C_Android-FF6B00?style=for-the-badge&labelColor=0d0500" />
+<img src="https://img.shields.io/badge/PLATAFORMA-Web_%7C_iOS_%7C_Android-FF8C00?style=for-the-badge&labelColor=0a0300"/>
 
 <br/><br/>
 
@@ -39,7 +38,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -74,7 +73,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -85,7 +84,7 @@
 **Frontend & Mobile**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=angular,flutter,dart,kotlin,tailwind,figma&theme=dark&perline=6" />
+  <img src="https://skillicons.dev/icons?i=angular,flutter,dart,kotlin,tailwind,figma&theme=dark&perline=6"/>
 </a>
 
 <br/><br/>
@@ -93,7 +92,7 @@
 **Backend & Infraestructura**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,graphql,prisma,postgres,cloudflare&theme=dark&perline=6" />
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,graphql,prisma,postgres,cloudflare&theme=dark&perline=6"/>
 </a>
 
 <br/><br/>
@@ -101,7 +100,7 @@
 **IA, Automatización & DevOps**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=github,githubactions,supabase,vitest&theme=dark&perline=4" />
+  <img src="https://skillicons.dev/icons?i=github,githubactions,supabase,vitest&theme=dark&perline=4"/>
 </a>
 
 </div>
@@ -138,7 +137,7 @@
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -188,7 +187,7 @@ graph TD
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -196,13 +195,13 @@ graph TD
 
 <div align="center">
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL_17-29_tablas-FF6B00?style=flat-square&logo=postgresql&logoColor=white&labelColor=0d0500)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_17-29_tablas-FF6B00?style=flat-square&logo=postgresql&logoColor=white&labelColor=0a0300)
 &nbsp;
-![RLS](https://img.shields.io/badge/RLS-habilitado_en_todas-27ae60?style=flat-square&labelColor=0d0500)
+![RLS](https://img.shields.io/badge/RLS-100%25_habilitado-27ae60?style=flat-square&labelColor=0a0300)
 &nbsp;
-![FTS](https://img.shields.io/badge/Full--text_search-Español-3498db?style=flat-square&labelColor=0d0500)
+![FTS](https://img.shields.io/badge/Full--text-Español-FF8C00?style=flat-square&labelColor=0a0300)
 &nbsp;
-![Triggers](https://img.shields.io/badge/Counters-desnormalizados_con_triggers-FF6B00?style=flat-square&labelColor=0d0500)
+![Migrations](https://img.shields.io/badge/Migraciones-30_aplicadas-3498db?style=flat-square&labelColor=0a0300)
 
 </div>
 
@@ -220,7 +219,6 @@ business_profiles
 user_settings
 follows
 ```
-
 **🌾 Alergenos & Prefs**
 ```
 allergens
@@ -241,7 +239,6 @@ ingredients
 recipe_ingredients
 post_media
 ```
-
 **❤️ Interacciones**
 ```
 likes
@@ -260,15 +257,10 @@ conversation_participants
 direct_messages
 contacts
 ```
-
-**🔔 Sistema evento**
+**🔔 Eventos & IA**
 ```
 notifications
 feed_events
-```
-
-**📍 Lugares & IA**
-```
 places
 place_reviews
 ai_generations
@@ -279,28 +271,28 @@ ai_generations
 </table>
 
 <details>
-<summary><b>🗂️ Ver los 11 dominios con descripción completa</b></summary>
+<summary><b>🗂️ Ver los 11 dominios con descripción</b></summary>
 <br/>
 
 | Dominio | Tablas | Descripción |
 |---|---|---|
-| 👤 Usuarios | `users`, `person_profiles`, `business_profiles`, `user_settings` | Perfiles persona y negocio separados. `username`, `display_name`, `avatar_url` desnormalizados en `users` via trigger |
-| 🤝 Grafo social | `follows` | PK compuesta `(follower_id, followed_id)`. Triggers actualizan `followers_count` y `following_count` |
-| 📝 Contenido | `posts`, `recipes`, `recipe_ingredients`, `ingredients`, `post_media` | Post polimórfico: `PHOTO / VIDEO / TEXT / RECIPE`. Cuando es RECIPE existe una fila en `recipes` vinculada 1-a-1 |
-| ❤️ Interacciones | `likes`, `comments`, `saved_posts`, `viewed_posts` | Claves compuestas sin ID propio. Triggers mantienen todos los counters desnormalizados |
-| 📖 Stories | `stories`, `viewed_stories` | Campo `expires_at` para expiración automática a las 24h |
-| 💬 Mensajería | `conversations`, `conversation_participants`, `direct_messages` | `type: DIRECT\|GROUP`. Participantes en tabla pivot — escala a grupos ilimitados |
-| 🔔 Notificaciones | `notifications`, `feed_events` | `type` como enum tipado: `LIKE`, `COMMENT`, `FOLLOW`, `MENTION`, `RECIPE_SAVE` |
-| 🌾 Alergenos | `allergens`, `allergen_ingredients`, `user_allergies` | 3 capas: alérgeno → ingrediente → usuario. Permite filtrar recetas seguras por usuario |
-| 🍽️ Preferencias | `preferences`, `user_preferences` | Culinarias personalizadas por usuario |
-| 📍 Lugares | `places`, `place_reviews` | Tipos: `RESTAURANT`, `BAR`, `CAFE`, `BAKERY`, `FOOD_TRUCK`. `average_rating` desnormalizado |
-| 🤖 IA | `ai_generations` | Historial completo: prompt → resultado JSON → `converted_to_post_id` si se publicó |
+| 👤 Usuarios | `users`, `person_profiles`, `business_profiles`, `user_settings` | Perfiles persona y negocio separados. `username`, `display_name`, `avatar_url` desnormalizados via trigger |
+| 🤝 Grafo social | `follows` | PK compuesta. Triggers actualizan `followers_count` y `following_count` |
+| 📝 Contenido | `posts`, `recipes`, `recipe_ingredients`, `ingredients`, `post_media` | Post polimórfico: `PHOTO / VIDEO / TEXT / RECIPE` |
+| ❤️ Interacciones | `likes`, `comments`, `saved_posts`, `viewed_posts` | Claves compuestas. Triggers mantienen todos los counters |
+| 📖 Stories | `stories`, `viewed_stories` | Campo `expires_at` para expiración automática 24h |
+| 💬 Mensajería | `conversations`, `conversation_participants`, `direct_messages` | `type: DIRECT\|GROUP`. Escala a grupos ilimitados |
+| 🔔 Notificaciones | `notifications`, `feed_events` | Enum tipado: `LIKE`, `COMMENT`, `FOLLOW`, `MENTION`, `RECIPE_SAVE` |
+| 🌾 Alergenos | `allergens`, `allergen_ingredients`, `user_allergies` | 3 capas: alérgeno → ingrediente → usuario |
+| 🍽️ Preferencias | `preferences`, `user_preferences` | Culinarias personalizadas |
+| 📍 Lugares | `places`, `place_reviews` | `RESTAURANT`, `BAR`, `CAFE`, `BAKERY`, `FOOD_TRUCK` |
+| 🤖 IA | `ai_generations` | prompt → resultado JSON → `converted_to_post_id` |
 
 </details>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -318,8 +310,8 @@ ai_generations
 │  Ingredientes│                              │                       │
 │  + alergenos │──── prompt estructurado ────►│                       │
 │  + prefs     │                              │  genera receta JSON   │
-│              │◄─── receta + pasos ──────────│  con pasos, tiempos   │
-│              │                              │  y sustituciones      │
+│              │◄─── receta + pasos ──────────│  pasos · tiempos      │
+│              │                              │  sustituciones        │
 │              │  guarda en ai_generations    │                       │
 │◄── preview ──│  status: DONE                │                       │
 │              │                              │                       │
@@ -333,45 +325,52 @@ ai_generations
 
 | Flujo | Entrada | Proceso |
 |---|---|---|
-| **Manual** | Ingredientes + restricciones dietéticas | Claude genera receta → usuario revisa → publica |
-| **Por foto** | Imagen de ingredientes | Claude Vision identifica → mismo flujo manual |
-| **Orquestación** | n8n como middleware | Desacopla Worker de Claude, gestiona reintentos y rate limiting por usuario |
+| **Manual** | Ingredientes + restricciones | Claude genera → usuario revisa → publica |
+| **Por foto** | Imagen de ingredientes | Claude Vision identifica → mismo flujo |
+| **n8n** | Middleware de orquestación | Reintentos, rate limiting por usuario, métricas |
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
 ## Flujo de una petición
 
 ```
-Usuario en Madrid                    Cloudflare Madrid
+Usuario en Madrid                    Cloudflare Madrid (~80ms total)
        │                                     │
        │──── GraphQL HTTPS ─────────────────►│
-       │                                     │
-       │                         ┌───────────┴────────────┐
-       │                         │  1. Verifica JWT        │
-       │                         │     (sin DB, ~0ms)      │
-       │                         │                         │
-       │                         │  2. Busca en KV cache   │
-       │                         │     si hay resultado    │
-       │                         │                         │
-       │                         │  3. Si no hay cache:    │
-       │                         │     Hyperdrive → PG     │
-       │                         │     query con Prisma    │
-       │                         │                         │
-       │                         │  4. Cachea en KV 30s    │
-       │                         └───────────┬────────────┘
-       │                                     │
-       │◄─── respuesta JSON ────────────────-│
-       │
-     ~80ms total desde cualquier ciudad del mundo
+       │                                     ├─ 1. Verifica JWT  (0ms, sin DB)
+       │                                     ├─ 2. KV cache hit? (<5ms)
+       │                                     ├─ 3. Cache miss → Hyperdrive → PG
+       │                                     ├─ 4. Cachea KV 30s
+       │◄─── respuesta JSON ─────────────────┤
 ```
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+
+<br/>
+
+## Actividad del proyecto
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--    GRÁFICO DE ACTIVIDAD — tema naranja Savorealo           -->
+<!--    Sustituye savorealo por tu username real de GitHub     -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div align="center">
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=savorealo&bg_color=0a0300&color=FF9A00&line=FF6B00&point=FFD080&area=true&area_color=FF6B00&hide_border=false&border_color=FF6B00&title_color=FF9A00&custom_title=Actividad%20del%20equipo%20Savorealo"
+  width="100%"
+  alt="Gráfico de actividad Savorealo"
+/>
+</div>
+
+<br/>
+
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -385,19 +384,16 @@ Usuario en Madrid                    Cloudflare Madrid
 │   push → feat/*  ──►  PR review  ──►  merge → develop          │
 │                                              │                  │
 │                                    GitHub Actions               │
-│                                         │                       │
-│                              ┌──────────┼──────────┐           │
-│                              ▼          ▼          ▼           │
-│                           Lint +     Angular    Worker          │
-│                           Tests      Build      Build           │
-│                           Vitest   CF Pages    wrangler         │
-│                           Playwright  deploy    deploy          │
-│                              │          │          │            │
-│                              └──────────┼──────────┘           │
-│                                         ▼                       │
-│                                  Prisma migrate                 │
-│                                  → Supabase                     │
-│                                                                 │
+│                              ┌───────────────┼──────────────┐  │
+│                              ▼               ▼              ▼  │
+│                           Lint +          Angular         Worker│
+│                           Tests           Build           Build │
+│                          Vitest         CF Pages         wrangler│
+│                         Playwright        deploy           deploy│
+│                              └───────────────┼──────────────┘  │
+│                                              ▼                  │
+│                                      Prisma migrate             │
+│                                      → Supabase                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -411,13 +407,11 @@ Usuario en Madrid                    Cloudflare Madrid
 
 </div>
 
-<br/>
-
-Commits con [Conventional Commits](https://www.conventionalcommits.org/) &nbsp;·&nbsp; Commitlint + Husky &nbsp;·&nbsp; PRs máx. 400 líneas &nbsp;·&nbsp; Revisión obligatoria
+Commits con [Conventional Commits](https://www.conventionalcommits.org/) &nbsp;·&nbsp; Commitlint + Husky &nbsp;·&nbsp; PRs máx. 400 líneas
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -438,7 +432,7 @@ Commits con [Conventional Commits](https://www.conventionalcommits.org/) &nbsp;�
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -449,7 +443,6 @@ Commits con [Conventional Commits](https://www.conventionalcommits.org/) &nbsp;�
 <br/>
 
 ```bash
-# Requisitos: Node.js 22+ · Wrangler CLI · Cuenta Cloudflare
 cd savorealo-api
 npm install
 cp .env.example .env        # rellenar credenciales Supabase + Cloudflare
@@ -476,13 +469,13 @@ ng serve                    # → http://localhost:4200
 ```bash
 cd savorealo-mobile
 flutter pub get
-flutter run                 # requiere emulador o dispositivo conectado
+flutter run
 ```
 </details>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B00,100:c45000&height=3" width="100%"/>
+<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
@@ -494,14 +487,14 @@ flutter run                 # requiere emulador o dispositivo conectado
 <tr>
   <td align="center" width="50%">
     <br/>
-    <img src="https://img.shields.io/badge/Full--Stack_Web_%2B_Backend-FF6B00?style=for-the-badge&labelColor=0d0500" />
+    <img src="https://img.shields.io/badge/Full--Stack_Web_%2B_Backend-FF6B00?style=for-the-badge&labelColor=0a0300"/>
     <br/><br/>
     <sub>Angular 21 · API GraphQL · Cloudflare Workers · TypeScript</sub>
     <br/><br/>
   </td>
   <td align="center" width="50%">
     <br/>
-    <img src="https://img.shields.io/badge/Mobile_Developer-FF6B00?style=for-the-badge&labelColor=0d0500" />
+    <img src="https://img.shields.io/badge/Mobile_Developer-FF6B00?style=for-the-badge&labelColor=0a0300"/>
     <br/><br/>
     <sub>Flutter · Dart · iOS · Android · Kotlin</sub>
     <br/><br/>
@@ -511,11 +504,14 @@ flutter run                 # requiere emulador o dispositivo conectado
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=4000&pause=2000&color=FF6B00&center=true&vCenter=true&repeat=true&width=500&height=30&lines=Proyecto+Final+de+Grado+%E2%86%92+Startup+%F0%9F%9A%80;Sprint+1+completado+%C2%B7+Abril+2026+%E2%9C%85;Cocinando+el+futuro+de+la+gastronom%C3%ADa+%F0%9F%8D%B3" alt="Footer typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=4000&pause=2000&color=FF6B00&center=true&vCenter=true&repeat=true&width=500&height=28&lines=Proyecto+Final+de+Grado+%E2%86%92+Startup+%F0%9F%9A%80;Sprint+1+completado+%C2%B7+Abril+2026+%E2%9C%85;Cocinando+el+futuro+de+la+gastronom%C3%ADa+%F0%9F%8D%B3" alt="footer typing"/>
 
 <br/><br/>
 
-<!-- FOOTER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d0500,50:c45000,100:FF6B00&height=150&section=footer&animation=fadeIn" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0300,50:c45000,100:FF6B00&height=140&section=footer&animation=fadeIn" width="100%"/>
 
 </div>
