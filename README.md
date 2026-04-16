@@ -1,26 +1,33 @@
 <div align="center">
 
-<img src="./assets/hero.svg" width="100%" alt="Savorealo"/>
+<img src="./hero.svg" width="100%" alt="Savorealo"/>
 
 <br/>
 
-<!-- TYPING SVG -->
 <a href="https://savorealo.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&repeat=true&width=680&height=50&lines=Red+social+gastron%C3%B3mica+con+IA+%F0%9F%8D%B4;Genera+recetas+con+Claude+AI+%F0%9F%A4%96;Comparte%2C+descubre%2C+saborea+%F0%9F%8D%B7;Angular+21+%C2%B7+Flutter+%C2%B7+Cloudflare+Workers+%E2%9A%A1;PostgreSQL+17+%C2%B7+29+tablas+%C2%B7+RLS+%C2%B7+FTS+%F0%9F%97%84%EF%B8%8F;Proyecto+Final+de+Grado+%E2%86%92+Startup+%F0%9F%9A%80" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FF6B00&center=true&vCenter=true&repeat=true&width=680&height=50&lines=AI-powered+gastronomic+social+network+%F0%9F%8D%B4;Generate+recipes+with+Claude+AI+%F0%9F%A4%96;Share%2C+discover%2C+savour+%F0%9F%8D%B7;Angular+21+%C2%B7+Flutter+%C2%B7+Cloudflare+Workers+%E2%9A%A1;PostgreSQL+17+%C2%B7+29+tables+%C2%B7+RLS+%C2%B7+FTS+%F0%9F%97%84%EF%B8%8F;Final+Degree+Project+%E2%86%92+Startup+%F0%9F%9A%80" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
-<!-- BADGES -->
 <a href="https://savorealo.com">
   <img src="https://img.shields.io/badge/%F0%9F%8C%90-savorealo.com-FF6B00?style=for-the-badge&labelColor=0a0300"/>
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/STATUS-En_desarrollo-27ae60?style=for-the-badge&labelColor=0a0300"/>
+<img src="https://img.shields.io/badge/STATUS-In_development-27ae60?style=for-the-badge&labelColor=0a0300"/>
 &nbsp;
-<img src="https://img.shields.io/badge/SPRINT-1_completado-FF6B00?style=for-the-badge&labelColor=0a0300"/>
+<img src="https://img.shields.io/badge/SPRINT-1_completed-FF6B00?style=for-the-badge&labelColor=0a0300"/>
 &nbsp;
-<img src="https://img.shields.io/badge/PLATAFORMA-Web_%7C_iOS_%7C_Android-FF8C00?style=for-the-badge&labelColor=0a0300"/>
+<img src="https://img.shields.io/badge/PLATFORM-Web_%7C_iOS_%7C_Android-FF8C00?style=for-the-badge&labelColor=0a0300"/>
+
+<br/><br/>
+
+<!-- Language switcher -->
+<a href="./README.md">
+  <img src="https://img.shields.io/badge/%F0%9F%87%AA%F0%9F%87%B8-Español-FF6B00?style=flat-square&labelColor=0a0300"/>
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7-English_(current)-555?style=flat-square&labelColor=0a0300"/>
 
 <br/><br/>
 
@@ -30,42 +37,42 @@
 
 <br/>
 
-## ¿Qué es Savorealo?
+## What is Savorealo?
 
-**Savorealo** es la primera red social 100% gastronómica con IA integrada. Los usuarios publican recetas, posts culinarios y reseñas de restaurantes — y si no saben qué cocinar, le dicen a la IA qué ingredientes tienen y en segundos reciben una receta personalizada lista para publicar.
+**Savorealo** is the first 100% gastronomic social network with integrated AI. Users publish recipes, food posts and restaurant reviews — and if they don't know what to cook, they tell the AI what ingredients they have and within seconds they receive a personalised recipe ready to publish.
 
-> *No es una app de recetas. Es Instagram para foodies, con un chef con IA en el bolsillo.*
-
-<br/>
-
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+> *Not just a recipe app. It's Instagram for foodies, with an AI chef in your pocket.*
 
 <br/>
 
-## Funcionalidades
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
+
+<br/>
+
+## Features
 
 <table>
 <tr>
 <td width="50%">
 
-**Red social**
-- 📸 &nbsp;Feed personalizado con posts multimedia
-- 👥 &nbsp;Seguir usuarios y restaurantes
-- 💬 &nbsp;Comentarios, likes y guardados
-- 📖 &nbsp;Stories con expiración 24h
-- 💌 &nbsp;Mensajería directa y grupos
-- 🔔 &nbsp;Notificaciones en tiempo real
+**Social network**
+- 📸 &nbsp;Personalised feed with multimedia posts
+- 👥 &nbsp;Follow users and restaurants
+- 💬 &nbsp;Comments, likes and saves
+- 📖 &nbsp;Stories with 24h expiration
+- 💌 &nbsp;Direct messages and group chats
+- 🔔 &nbsp;Real-time notifications
 
 </td>
 <td width="50%">
 
-**Gastronomía + IA**
-- 🤖 &nbsp;Generador de recetas con Claude AI
-- 📷 &nbsp;Sube una foto — la IA identifica ingredientes
-- 🌾 &nbsp;Sistema de alergenos y preferencias
-- 🗺️ &nbsp;Directorio de restaurantes con reseñas
-- 🔍 &nbsp;Búsqueda full-text en español
-- 📊 &nbsp;Categorías culinarias y filtros
+**Gastronomy + AI**
+- 🤖 &nbsp;Recipe generator with Claude AI
+- 📷 &nbsp;Upload a photo — AI identifies ingredients
+- 🌾 &nbsp;Allergen and preference system
+- 🗺️ &nbsp;Restaurant directory with reviews
+- 🔍 &nbsp;Full-text search in Spanish
+- 📊 &nbsp;Culinary categories and filters
 
 </td>
 </tr>
@@ -73,11 +80,11 @@
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Stack tecnológico
+## Tech stack
 
 <div align="center">
 
@@ -89,7 +96,7 @@
 
 <br/><br/>
 
-**Backend & Infraestructura**
+**Backend & Infrastructure**
 
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=ts,nodejs,graphql,prisma,postgres,cloudflare&theme=dark&perline=6"/>
@@ -97,7 +104,7 @@
 
 <br/><br/>
 
-**IA, Automatización & DevOps**
+**AI, Automation & DevOps**
 
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=github,githubactions,supabase,vitest&theme=dark&perline=4"/>
@@ -108,63 +115,63 @@
 <br/>
 
 <details>
-<summary><b>📋 Ver tabla completa del stack</b></summary>
+<summary><b>📋 Full stack table</b></summary>
 <br/>
 
-| Capa | Tecnología | Versión | Notas |
+| Layer | Technology | Version | Notes |
 |---|---|---|---|
-| **Framework web** | Angular | 21.x | Signals + Zoneless |
-| **UI Components** | PrimeNG + Tailwind CSS | 21.x / v4 | Design system propio |
-| **Mobile** | Flutter + Dart | 3.x | iOS y Android |
-| **Módulos nativos** | Kotlin | — | Android |
+| **Web framework** | Angular | 21.x | Signals + Zoneless |
+| **UI Components** | PrimeNG + Tailwind CSS | 21.x / v4 | Custom design system |
+| **Mobile** | Flutter + Dart | 3.x | iOS and Android |
+| **Native modules** | Kotlin | — | Android |
 | **API** | GraphQL Yoga v5 | latest | The Guild, spec-compliant |
-| **Schema GraphQL** | Pothos | latest | Code-first, type-safe |
-| **ORM** | Prisma + Edge | latest | Con Prisma Accelerate |
-| **Runtime backend** | Cloudflare Workers | — | Edge serverless, 300 ciudades |
-| **Base de datos** | PostgreSQL 17 | via Supabase | 29 tablas, RLS, FTS español |
+| **GraphQL schema** | Pothos | latest | Code-first, type-safe |
+| **ORM** | Prisma + Edge | latest | With Prisma Accelerate |
+| **Backend runtime** | Cloudflare Workers | — | Edge serverless, 300 cities |
+| **Database** | PostgreSQL 17 | via Supabase | 29 tables, RLS, FTS Spanish |
 | **Auth** | Supabase Auth | latest | JWT + OAuth |
-| **Media storage** | Cloudflare R2 | — | Sin egress fees |
-| **Cache / Sesiones** | Cloudflare KV | — | Edge-distributed |
-| **Realtime** | Cloudflare Durable Objects | — | WebSockets persistentes |
+| **Media storage** | Cloudflare R2 | — | No egress fees |
+| **Cache / Sessions** | Cloudflare KV | — | Edge-distributed |
+| **Realtime** | Cloudflare Durable Objects | — | Persistent WebSockets |
 | **Connection pool** | Cloudflare Hyperdrive | — | Workers → Supabase |
-| **IA generativa** | Claude API (Anthropic) | Sonnet 4 | Generación de recetas |
-| **Orquestación IA** | n8n | — | Flujos IA → DB |
-| **Lenguaje** | TypeScript 5 strict | 5.x | End-to-end type safety |
+| **Generative AI** | Claude API (Anthropic) | Sonnet 4 | Recipe generation |
+| **AI orchestration** | n8n | — | AI → DB workflow |
+| **Language** | TypeScript 5 strict | 5.x | End-to-end type safety |
 | **Testing** | Vitest + Playwright | latest | Unit + E2E |
-| **CI/CD** | GitHub Actions | — | Deploy automático |
+| **CI/CD** | GitHub Actions | — | Automatic deploy |
 
 </details>
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Arquitectura
+## Architecture
 
 ```mermaid
 graph TD
-  subgraph C["👤 Clientes"]
+  subgraph C["👤 Clients"]
     WEB["🌐 Angular 21 · Cloudflare Pages"]
     MOB["📱 Flutter · iOS & Android"]
   end
 
-  subgraph CF["☁️ Cloudflare Edge — 300 ciudades"]
-    WORKER["⚡ Worker — API GraphQL\nYoga v5 · Pothos · Prisma"]
-    KV["🗄️ KV Store\nSesiones · Cache · Rate limit"]
-    R2["📦 R2 Storage\nFotos · Vídeos · Media"]
+  subgraph CF["☁️ Cloudflare Edge — 300 cities"]
+    WORKER["⚡ Worker — GraphQL API\nYoga v5 · Pothos · Prisma"]
+    KV["🗄️ KV Store\nSessions · Cache · Rate limit"]
+    R2["📦 R2 Storage\nPhotos · Videos · Media"]
     DO["🔔 Durable Objects\nRealtime · WebSockets"]
     HYP["🔌 Hyperdrive\nConnection Pool"]
   end
 
   subgraph SB["🟢 Supabase · eu-central-1"]
-    PG["🐘 PostgreSQL 17\n29 tablas · RLS · FTS"]
+    PG["🐘 PostgreSQL 17\n29 tables · RLS · FTS"]
     AUTH["🔐 Supabase Auth · JWT"]
   end
 
-  subgraph AI["🤖 IA & Automatización"]
-    N8N["⚙️ n8n · Orquestación"]
+  subgraph AI["🤖 AI & Automation"]
+    N8N["⚙️ n8n · Orchestration"]
     CLAUDE["🧠 Claude API · Anthropic"]
   end
 
@@ -183,25 +190,25 @@ graph TD
   style C fill:#1a1a1a,stroke:#666,color:#fff
 ```
 
-> **Edge-first.** Sin servidores que gestionar. Sin escalado manual. HTTPS automático. Deploy en segundos. Coste estimado MVP: **~5–10 €/mes**.
+> **Edge-first.** No servers to manage. No manual scaling. Automatic HTTPS. Deploy in seconds. Estimated MVP cost: **~€5–10/month**.
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Base de datos
+## Database
 
 <div align="center">
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL_17-29_tablas-FF6B00?style=flat-square&logo=postgresql&logoColor=white&labelColor=0a0300)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL_17-29_tables-FF6B00?style=flat-square&logo=postgresql&logoColor=white&labelColor=0a0300)
 &nbsp;
-![RLS](https://img.shields.io/badge/RLS-100%25_habilitado-27ae60?style=flat-square&labelColor=0a0300)
+![RLS](https://img.shields.io/badge/RLS-100%25_enabled-27ae60?style=flat-square&labelColor=0a0300)
 &nbsp;
-![FTS](https://img.shields.io/badge/Full--text-Español-FF8C00?style=flat-square&labelColor=0a0300)
+![FTS](https://img.shields.io/badge/Full--text-Spanish-FF8C00?style=flat-square&labelColor=0a0300)
 &nbsp;
-![Migrations](https://img.shields.io/badge/Migraciones-30_aplicadas-3498db?style=flat-square&labelColor=0a0300)
+![Migrations](https://img.shields.io/badge/Migrations-30_applied-3498db?style=flat-square&labelColor=0a0300)
 
 </div>
 
@@ -211,7 +218,7 @@ graph TD
 <tr>
 <td width="33%" valign="top">
 
-**👤 Usuarios & Social**
+**👤 Users & Social**
 ```
 users
 person_profiles
@@ -219,7 +226,7 @@ business_profiles
 user_settings
 follows
 ```
-**🌾 Alergenos & Prefs**
+**🌾 Allergens & Prefs**
 ```
 allergens
 allergen_ingredients
@@ -231,15 +238,15 @@ user_preferences
 </td>
 <td width="33%" valign="top">
 
-**📝 Contenido**
+**📝 Content**
 ```
-posts          ← polimórfico
-recipes        ← extensión de post
+posts          ← polymorphic
+recipes        ← post extension
 ingredients
 recipe_ingredients
 post_media
 ```
-**❤️ Interacciones**
+**❤️ Interactions**
 ```
 likes
 comments
@@ -250,14 +257,14 @@ viewed_posts
 </td>
 <td width="33%" valign="top">
 
-**💬 Mensajería**
+**💬 Messaging**
 ```
 conversations
 conversation_participants
 direct_messages
 contacts
 ```
-**🔔 Eventos & IA**
+**🔔 Events & AI**
 ```
 notifications
 feed_events
@@ -270,188 +277,123 @@ ai_generations
 </tr>
 </table>
 
-<details>
-<summary><b>🗂️ Ver los 11 dominios con descripción</b></summary>
 <br/>
 
-| Dominio | Tablas | Descripción |
-|---|---|---|
-| 👤 Usuarios | `users`, `person_profiles`, `business_profiles`, `user_settings` | Perfiles persona y negocio separados. `username`, `display_name`, `avatar_url` desnormalizados via trigger |
-| 🤝 Grafo social | `follows` | PK compuesta. Triggers actualizan `followers_count` y `following_count` |
-| 📝 Contenido | `posts`, `recipes`, `recipe_ingredients`, `ingredients`, `post_media` | Post polimórfico: `PHOTO / VIDEO / TEXT / RECIPE` |
-| ❤️ Interacciones | `likes`, `comments`, `saved_posts`, `viewed_posts` | Claves compuestas. Triggers mantienen todos los counters |
-| 📖 Stories | `stories`, `viewed_stories` | Campo `expires_at` para expiración automática 24h |
-| 💬 Mensajería | `conversations`, `conversation_participants`, `direct_messages` | `type: DIRECT\|GROUP`. Escala a grupos ilimitados |
-| 🔔 Notificaciones | `notifications`, `feed_events` | Enum tipado: `LIKE`, `COMMENT`, `FOLLOW`, `MENTION`, `RECIPE_SAVE` |
-| 🌾 Alergenos | `allergens`, `allergen_ingredients`, `user_allergies` | 3 capas: alérgeno → ingrediente → usuario |
-| 🍽️ Preferencias | `preferences`, `user_preferences` | Culinarias personalizadas |
-| 📍 Lugares | `places`, `place_reviews` | `RESTAURANT`, `BAR`, `CAFE`, `BAKERY`, `FOOD_TRUCK` |
-| 🤖 IA | `ai_generations` | prompt → resultado JSON → `converted_to_post_id` |
-
-</details>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
-
-<br/>
-
-## IA generativa — el diferenciador
+## AI generation — the differentiator
 
 <div align="center">
-
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                        FLUJO DE GENERACIÓN                          │
-├──────────────┬──────────────────────────────┬───────────────────────┤
-│   USUARIO    │        SAVOREALO API         │      CLAUDE AI        │
-├──────────────┼──────────────────────────────┼───────────────────────┤
-│              │                              │                       │
-│  Ingredientes│                              │                       │
-│  + alergenos │──── prompt estructurado ────►│                       │
-│  + prefs     │                              │  genera receta JSON   │
-│              │◄─── receta + pasos ──────────│  pasos · tiempos      │
-│              │                              │  sustituciones        │
-│              │  guarda en ai_generations    │                       │
-│◄── preview ──│  status: DONE                │                       │
-│              │                              │                       │
-│  [publicar]  │                              │                       │
-│─────────────►│  crea post tipo RECIPE       │                       │
-│              │  en el feed público          │                       │
-└──────────────┴──────────────────────────────┴───────────────────────┘
-```
-
+<img src="./flow-ai.svg" width="100%" alt="AI generation flow"/>
 </div>
 
-| Flujo | Entrada | Proceso |
+<br/>
+
+| Flow | Input | Process |
 |---|---|---|
-| **Manual** | Ingredientes + restricciones | Claude genera → usuario revisa → publica |
-| **Por foto** | Imagen de ingredientes | Claude Vision identifica → mismo flujo |
-| **n8n** | Middleware de orquestación | Reintentos, rate limiting por usuario, métricas |
+| **Manual** | Ingredients + dietary restrictions | Claude generates → user reviews → publishes |
+| **Photo** | Image of ingredients | Claude Vision identifies → same flow |
+| **n8n** | Orchestration middleware | Retries, per-user rate limiting, metrics |
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Flujo de una petición
+## Request flow
 
-```
-Usuario en Madrid                    Cloudflare Madrid (~80ms total)
-       │                                     │
-       │──── GraphQL HTTPS ─────────────────►│
-       │                                     ├─ 1. Verifica JWT  (0ms, sin DB)
-       │                                     ├─ 2. KV cache hit? (<5ms)
-       │                                     ├─ 3. Cache miss → Hyperdrive → PG
-       │                                     ├─ 4. Cachea KV 30s
-       │◄─── respuesta JSON ─────────────────┤
-```
+<div align="center">
+<img src="./flow-request.svg" width="100%" alt="Request flow"/>
+</div>
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Actividad del proyecto
+## Project activity
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--    GRÁFICO DE ACTIVIDAD — tema naranja Savorealo           -->
-<!--    Sustituye savorealo por tu username real de GitHub     -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 <div align="center">
 <img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=savorealo&bg_color=0a0300&color=FF9A00&line=FF6B00&point=FFD080&area=true&area_color=FF6B00&hide_border=false&border_color=FF6B00&title_color=FF9A00&custom_title=Actividad%20del%20equipo%20Savorealo"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=TU_USUARIO&bg_color=0a0300&color=FF9A00&line=FF6B00&point=FFD080&area=true&area_color=FF6B00&hide_border=false&border_color=FF6B00&title_color=FF9A00&custom_title=Savorealo%20team%20activity"
   width="100%"
-  alt="Gráfico de actividad Savorealo"
+  alt="Activity graph"
 />
 </div>
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## CI/CD & Flujo de trabajo
+## CI/CD Pipeline
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        CI/CD PIPELINE                           │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   push → feat/*  ──►  PR review  ──►  merge → develop          │
-│                                              │                  │
-│                                    GitHub Actions               │
-│                              ┌───────────────┼──────────────┐  │
-│                              ▼               ▼              ▼  │
-│                           Lint +          Angular         Worker│
-│                           Tests           Build           Build │
-│                          Vitest         CF Pages         wrangler│
-│                         Playwright        deploy           deploy│
-│                              └───────────────┼──────────────┘  │
-│                                              ▼                  │
-│                                      Prisma migrate             │
-│                                      → Supabase                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+<img src="./flow-cicd.svg" width="100%" alt="CI/CD pipeline"/>
+</div>
+
+<br/>
 
 <div align="center">
 
-| Rama | Entorno | Trigger |
+| Branch | Environment | Trigger |
 |---|---|---|
-| `main` | 🔴 Producción | Push automático |
-| `develop` | 🟡 Staging | Push automático |
+| `main` | 🔴 Production | Push automatic |
+| `develop` | 🟡 Staging | Push automatic |
 | `feat/*` · `fix/*` | 🟢 Local | Manual |
 
 </div>
 
-Commits con [Conventional Commits](https://www.conventionalcommits.org/) &nbsp;·&nbsp; Commitlint + Husky &nbsp;·&nbsp; PRs máx. 400 líneas
+[Conventional Commits](https://www.conventionalcommits.org/) &nbsp;·&nbsp; Commitlint + Husky &nbsp;·&nbsp; PRs max 400 lines
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Repositorios
+## Repositories
 
 <div align="center">
 
-| Repositorio | Descripción | Stack principal |
+| Repository | Description | Main stack |
 |---|---|---|
-| [`savorealo-web`](#) | Frontend Angular 21 | Angular · Tailwind · PrimeNG · Apollo |
-| [`savorealo-mobile`](#) | App Flutter iOS/Android | Flutter · Dart · Kotlin |
-| [`savorealo-api`](#) | Backend GraphQL edge | Workers · Yoga v5 · Pothos · Prisma |
-| [`savorealo-infra`](#) | Configuración Cloudflare | Wrangler · IaC |
+| [`savorealo-web`](#) | Angular 21 frontend | Angular · Tailwind · PrimeNG · Apollo |
+| [`savorealo-mobile`](#) | Flutter iOS/Android app | Flutter · Dart · Kotlin |
+| [`savorealo-api`](#) | GraphQL edge backend | Workers · Yoga v5 · Pothos · Prisma |
+| [`savorealo-infra`](#) | Cloudflare configuration | Wrangler · IaC |
 
-> 🔒 Repositorios privados — acceso previa solicitud al equipo.
+> 🔒 Private repositories — request access from the team.
 
 </div>
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Desarrollo local
+## Local development
 
 <details>
-<summary><b>⚡ Backend — API GraphQL (Cloudflare Workers)</b></summary>
+<summary><b>⚡ Backend — GraphQL API (Cloudflare Workers)</b></summary>
 <br/>
 
 ```bash
 cd savorealo-api
 npm install
-cp .env.example .env        # rellenar credenciales Supabase + Cloudflare
+cp .env.example .env        # fill in Supabase + Cloudflare credentials
 wrangler dev                # → http://localhost:8787/graphql
 ```
 </details>
 
 <details>
-<summary><b>🌐 Frontend web — Angular 21</b></summary>
+<summary><b>🌐 Web frontend — Angular 21</b></summary>
 <br/>
 
 ```bash
@@ -475,11 +417,11 @@ flutter run
 
 <br/>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="—"/></div>
+<div align="center"><img src="./divider.svg" width="100%" alt="—"/></div>
 
 <br/>
 
-## Equipo
+## Team
 
 <div align="center">
 
@@ -489,7 +431,7 @@ flutter run
     <br/>
     <img src="https://img.shields.io/badge/Full--Stack_Web_%2B_Backend-FF6B00?style=for-the-badge&labelColor=0a0300"/>
     <br/><br/>
-    <sub>Angular 21 · API GraphQL · Cloudflare Workers · TypeScript</sub>
+    <sub>Angular 21 · GraphQL API · Cloudflare Workers · TypeScript</sub>
     <br/><br/>
   </td>
   <td align="center" width="50%">
@@ -504,7 +446,7 @@ flutter run
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=4000&pause=2000&color=FF6B00&center=true&vCenter=true&repeat=true&width=500&height=28&lines=Proyecto+Final+de+Grado+%E2%86%92+Startup+%F0%9F%9A%80;Sprint+1+completado+%C2%B7+Abril+2026+%E2%9C%85;Cocinando+el+futuro+de+la+gastronom%C3%ADa+%F0%9F%8D%B3" alt="footer typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=4000&pause=2000&color=FF6B00&center=true&vCenter=true&repeat=true&width=500&height=28&lines=Final+Degree+Project+%E2%86%92+Startup+%F0%9F%9A%80;Sprint+1+completed+%C2%B7+April+2026+%E2%9C%85;Cooking+the+future+of+gastronomy+%F0%9F%8D%B3" alt="footer typing"/>
 
 <br/><br/>
 
